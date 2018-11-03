@@ -30,6 +30,7 @@ if($k -eq 1){
   Write-Host "Install python libraries" -ForeGround Green
   $file = $env:USERPROFILE + "\onedrivecli" + "\require_lib.py"
   $download.DownloadFile($url, $file)
+  Start-Sleep -s 5
   python require_lib.py
 
   $url = "https://drive.google.com/uc?authuser=0&id=1PJyX0ATmrEZSzTw1WAiV7a0yPU0SXgwh&export=download"
