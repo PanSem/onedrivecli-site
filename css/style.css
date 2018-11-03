@@ -1,0 +1,473 @@
+body{
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  margin: auto;
+}
+
+ul{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Menu */
+.menu-container{
+  width: 90%;
+}
+
+header{
+  background: #0078d7;
+}
+
+header ul li{
+  display: inline;
+  float: left;
+  padding-left: 1rem;
+}
+
+header a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+header a.download{
+  float: right;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  border: 1px solid #ffffff;
+  font-size: 1rem;
+}
+
+header a.first_section{
+  float: right;
+  padding: 0.5rem;
+  padding-top: 1.2rem;
+  font-size: 1rem;
+}
+
+header a.second_section{
+  float: right;
+  padding: 0.5rem;
+  padding-top: 1.2rem;
+  font-size: 1rem;
+}
+
+header a.third_section{
+  float: right;
+  padding: 0.5rem;
+  padding-top: 1.2rem;
+  font-size: 1rem;
+}
+
+header a.first_section:hover{
+  background: #248bdd;
+}
+
+header a.second_section:hover{
+  background: #248bdd;
+}
+
+header a.third_section:hover{
+  background: #248bdd;
+}
+
+header a.download:hover{
+  border: 1px solid #ffffff;
+  font-weight: bold;
+}
+
+header ul li:hover{
+  cursor: pointer;
+}
+
+header a.title{
+  font-size: 1.5rem;
+}
+
+header li.title_li{
+  padding-top: 0.7rem;
+  padding-right: 2rem;
+}
+
+/*Title*/
+.header-container{
+  width: 80%;
+  padding-top: 9rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+}
+
+header h1{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+header .cloud{
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+header p.subt{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0px;
+}
+
+.center{
+  text-align: center;
+}
+
+.fas.fa-arrow-down{
+  color: #f4f4f4;
+  font-size: 3rem;
+  margin: 0px;
+  margin-top: 3rem;
+}
+
+.fas.fa-arrow-down:hover{
+  cursor: pointer;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+@keyframes example {
+    0%   {margin-top: 3rem;}
+    25%  {margin-top: 2.7rem;}
+    50%  {margin-top: 2.5rem;}
+    75%  {margin-top: 2.7rem;}
+    100% {margin-top: 3rem;}
+}
+
+/*Info*/
+#info{
+  padding-top: 5rem;
+  overflow:hidden;
+}
+
+#info .container-info{
+  width: 80%;
+}
+
+#info h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #0078d7
+}
+
+/*All-info*/
+#info .slideshow-container{
+  padding-top: 3rem;
+}
+
+#info .slideshow-container h3{
+  font-size: 1.7rem;
+  margin: 0.5rem 0;
+  color: #0078d7
+}
+
+#info .slideshow-container .fas, #info .slideshow-container .fab{
+  font-size: 3rem;
+}
+
+#info .slideshow-container .fa-terminal{
+  color: #0078d7;
+  margin-bottom: 1rem;
+}
+
+#info .slideshow-container .fa-code{
+  color: #0078d7;
+  margin-bottom: 1rem;
+}
+
+#info .slideshow-container .fa-github{
+  color: #0078d7;
+  margin-bottom: 0.5rem;
+}
+
+#info .slideshow-container p{
+  font-size: 1.1rem;
+  width: 50%;
+  margin: auto;
+}
+
+/* Slideshow container */
+#info .slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+}
+
+#info #info .slideshow-container .mySlides {
+  display: none
+}
+
+/* Next & previous buttons */
+#info .slideshow-container .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  color: #0078d7;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Position the "next button" to the right */
+#info .slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+#info .dot {
+  cursor: pointer;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#info .active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#info .slideshow-container .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#info .all_dot{
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+#info .slideshow-container p a{
+  color: #0078d7;
+}
+
+
+/*Source*/
+.source{
+  padding-top: 3rem;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  color: #ffffff;
+  background: #0078d7;
+}
+
+.source .container-source{
+  width: 70%;
+}
+
+.source .container-source h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.source .container-source .fa-file-download{
+  font-size: 10rem;
+  float: left;
+  padding-right: 2rem;
+}
+
+.source .container-source p{
+  padding-top: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.source p a{
+  text-decoration: none;
+  color: #0078d7;
+}
+
+.source .fab{
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  top: -17px;
+  color: #ffffff;
+}
+
+.source .fa-linux{
+  right: 20px;
+}
+
+.source .fab:hover{
+  cursor: pointer;
+}
+
+.source.to_right{
+  background: #ffffff;
+  color: black;
+}
+
+.source.to_right .container-source .fa-book{
+  font-size: 10rem;
+  float: right;
+  padding-left: 2rem;
+  color: #0078d7
+}
+
+.source.to_right h2{
+  color: #0078d7
+}
+
+.source .highlight {
+    color: #d0d0d0;
+}
+
+.source .language-powershell{
+  margin: 0 auto;
+  position: relative;
+}
+
+.source .highlight pre {
+    margin: 0 auto;
+    padding-left: 1rem;
+    background: #036cbf;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #0461ab;
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.source .highlight pre code {
+    color: #efefef;
+    margin: 0;
+    padding: 0;
+}
+
+.source .highlight .nb {
+    color: #ff0b0b;
+}
+
+.source .highlight .o {
+    color: #d0d0d0;
+}
+
+.source .highlight .s1 {
+    color: #ffa700;
+}
+
+/*Footer*/
+footer{
+  background: #0078d7;
+  padding: 1rem 0;
+}
+
+footer .container-fo{
+  width: 50%;
+}
+
+footer .container-fo p{
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 0.1rem;
+}
+
+footer .container-fo p a{
+  text-decoration: none;
+  color: #4949bd;
+}
+
+@media(max-width:750px){
+  .menu-container{
+    display: none;
+  }
+}
+
+@media(max-width:900px){
+  #info .all-info{
+    width: 100%;
+    float: none;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+  }
+
+  .source{
+    padding-bottom: 0.5rem;
+  }
+
+  #info, .source, #documentation{
+    padding-top: 2rem;
+  }
+
+  .source .language-powershell{
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 5rem;
+  }
+}
+
+@media(max-width:500px){
+  .source .container-source .fa-file-download{
+    font-size: 7rem;
+    padding-right: 1rem;
+  }
+
+  .source.to_right .container-source .fa-book{
+    font-size: 7rem;
+    padding-right: 0;
+  }
+}
+
+@media(max-width:1200px){
+  .source .highlight{
+    margin-top: 2rem;
+  }
+}
+
+span.cur {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
